@@ -1,0 +1,43 @@
+.subBanner{ 
+    background-image: url(../image/banenr3.jpg);
+    background-position:center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    z-index: 1; 
+    padding: 100px 0;  
+    background-attachment: fixed;
+    margin-bottom: 80px;
+&::after{
+    position: absolute;
+    content: '';
+    top: 0; 
+    left: 0;
+    background-color: rgba(0,0,0,0.5); 
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    }
+
+    .subBanner_content{
+        text-align: center;
+        .title_of_banner{
+            font-size: 32px;
+            color: $white;
+            font-weight: 500;
+            line-height: 42px;
+        }
+        .title_link{
+            font-size: 25px;
+            color: #dbdada;
+            font-weight: 400;
+            display: inline-block;
+            border-bottom: 1px solid $white;
+            padding: 8px 0;
+            line-height: 38px;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,252 @@
+.form-3 {
+    padding: 50px 0 120px 0;
+}
+
+.form-3 .form_main { 
+    background-color: #ffffff;
+    padding: 80px 0 50px 0;
+    border-radius: 12px;
+}
+
+.form-3 .form_main .form_top_info {
+    display: flex
+}
+
+.form-3 .form_main .form_top_info .logo {
+    padding-bottom: 20px
+}
+
+.form-3 .form_main .form_top_info .logo img {
+    width: 120px
+}
+
+.form-3 .form_main .form_top_info h5 {
+    display: inline-block;
+    padding: 30px;
+    border: 4px solid #000;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #000;
+    margin-left: 50px;
+    position: relative;
+}
+.form-3 .form_main .form_top_info h5::after{
+    position: absolute;
+    content: ''; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 94%;
+    width: 99%;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+.form-3 .form_main .info{
+    text-align: center;
+}
+.form-3 .form_main .info h6 {
+    padding: 6px 12px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #000;
+    line-height: 32px;
+    display: inline-block;
+    border: 1px dashed #333333;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.form-3 .form_main .info .mamber_t{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    line-height: 26px;
+}
+.form-3 .form_main .info ul {
+    padding: 10px 0;
+}
+.form-3 .form_main .info ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #333333;
+    text-align: start;
+    list-style:square ;
+}
+
+.form-3 .form_main .top_table .table_item {
+    border: 1px solid #ababab;
+    padding: 10px 20px;
+    margin-top: 15px;
+    height: 122px;
+    border-radius: 10px;
+}
+
+.form-3 .form_main .top_table .table_item h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px
+}
+
+.form-3 .form_main .top_table .table_item h5 .cheque {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px
+}
+
+.form-3 .form_main .top_table .table_item h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #292828;
+    padding-left: 28px;
+}
+
+.form-3 .form_main .form_body {
+    padding-top: 40px
+}
+
+.form-3 .form_main .form_body form .form_control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: rgb(241, 241, 241);
+    padding: 10px 12px;
+    margin: 8px 0;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid #b4b3b3;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+.form-3 .form_main .form_body form .form_control::placeholder {
+    font-size: 15px;
+    color: #807f7f;
+    font-weight: 400
+}
+
+.form-3 .form_main .form_body form .cheque {
+    height: 17px;
+    width: 17px
+}
+
+.form-3 .form_main .form_body form label {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Lora", serif;
+    padding: 10px 0
+}
+.form-3 .form_main .form_body .f_text{
+    font-size: 18px;
+    color: #111111;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 10px;
+} 
+.form-3 .form_main .form_body .f_text span{
+    font-weight: 400;
+}
+.form-3 .form_main .form_body .or_class{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+.form-3 .form_main .form_body .f_text2{
+    font-size: 18px;
+    color: #111111;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.form-3 .form_main .form_body form h3 {
+    font-size: 16px;
+    color: #1d1d1d;
+    font-weight: 500;
+    font-family: "Lora", serif;
+    padding-top: 30px
+}
+
+.form-3 .form_main .form_body form h4 {
+    font-size: 15px;
+    color: #1d1d1d;
+    font-weight: 500;
+    font-family: "Lora", serif;
+    padding-top: 30px 
+}
+
+.form-3 .form_main .form_body .save_btn {
+    padding: 60px 0 20px 0;
+    text-align: center
+}
+.form-3 .form_main .form_body .form_footer{
+    padding-top: 10px;
+}
+.form-3 .form_main .form_body .f_text2 {
+	font-size: 16px;
+	padding-top: 5px;
+}
+.form-3 .form_main .form_body .f_text {
+	font-size: 17px;
+	color: #111111;
+	font-weight: 500;
+	line-height: 27px;
+	padding-top: 10px;
+}
+.form-3 .form_main .form_body .form_footer .cheque_m{
+    font-size: 15px;
+    color: #333333;
+    line-height: 26px;
+}
+.form-3 .form_main .form_body .form_footer .cheque_m span{
+    padding-left: 10px;
+}
+.form-3 .form_main .form_body .form_footer .footer_state{
+  font-size: 16px;
+  color:#333333 ;
+  font-weight: 500;
+  display: inline-block;
+  border-bottom: 1px dashed #333333;
+}
+.form-3 .form_main .form_body .save_btn a {
+    font-size: 16px;
+    color: #000;
+    background-color: #9a9a9a;
+    padding: 12px 60px; 
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 7px;
+    text-transform: uppercase
+}
+
+.form-3 .form_main .form_body .save_btn a:hover {
+    background-color: #006a4e;
+    color: #fff
+}
+
+.form_bottom{
+    border-top: 1px solid #747373;
+    padding: 10px 0;  
+} 
+.form_bottom .bottomText{
+  font-size: 24px;
+  font-weight: 500;
+  color: #1f1f1f;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 34px;
+}
+
+label {
+	display: inline !important;
+}

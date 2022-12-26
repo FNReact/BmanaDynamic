@@ -1,0 +1,59 @@
+.PresidentMessage_wrapper{
+      padding: 50px 0 120px 0;
+    .PresidentMessage_wrap{
+       padding: 80px 70px;
+       border-radius: 20px;
+       background-color: $white;
+       position: relative;
+       box-shadow: $shadow;
+       .style_1{
+           height: 60px;
+           width: 60px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           position: absolute;
+           top: 20px;
+           left: 20px; 
+           img{
+             max-width: 100%;
+             max-height: 100%;
+           }
+       }
+       .style_2{
+        height: 60px;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 20px;
+        right: 20px; 
+        img{
+          max-width: 100%;
+          max-height: 100%;
+          transform: rotate(-180deg);
+        }
+       }
+
+       p{
+        font-size: 17px;
+        color: $text;
+        font-weight: 400;
+        line-height: 27px;
+
+    }
+     .messanger_name{
+        font-size: 20px;
+        color: $black;
+        font-weight: 600;
+        padding-top: 20px;
+     }
+     .messanger_title{
+        font-size: 17px;
+        color: $primaryColor; 
+        font-weight: 400;
+        padding-top: 4px;
+     }
+    }
+}

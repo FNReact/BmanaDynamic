@@ -1,0 +1,25 @@
+.mission_wrapper{
+    padding: 50px 0 100px 0;
+    .mission_card{ 
+        padding: 30px;
+        background-color: $white;
+        box-shadow: $shadow;
+        text-align: center;
+        height: 450px;
+        border-radius: 15px;
+        h3{
+          font-size: 30px;
+          font-weight: 500;
+          color: $primaryColor; 
+          line-height: 40px;
+        }
+        
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            color: $text;
+            line-height:28px;
+            text-align: center;
+          }
+    }
+}

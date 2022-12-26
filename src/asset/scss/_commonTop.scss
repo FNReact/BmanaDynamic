@@ -1,0 +1,55 @@
+.commonTop{
+     background-image: url(../image/commonTop.png);
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 350px;
+     width: 100%;
+     position: relative;
+     z-index: 1;
+     &::after{ 
+        position: absolute;
+        content: '';
+        top: 0; 
+        left: 0;
+        height: 100%; 
+        width: 100%; 
+        background-color: #006a4e; 
+        opacity: 50%; 
+        z-index: -1;
+     }
+    .commonTop_wrapper{
+         height: 350px;
+         display: flex;
+         align-items:flex-end;
+         justify-content: center;
+         text-align: center;
+         padding-bottom: 20px;
+       .top_wrap{ 
+           h3{
+               font-size: 45px;
+               font-weight: 700;
+               color: $white; 
+               line-height: 55px;
+               text-transform: uppercase;
+               padding: 0 160px;
+               font-family: $font-2;
+            }
+            .page_name{
+               font-size: 17px;
+               color: $white; 
+               font-weight: 500;
+               padding: 9px 40px;
+               border: 1px solid #d3d3d3;
+               border-radius: 35px;
+               display: inline-block;
+               background-color: rgba(231, 231, 231, 0.212);  
+            }
+       }
+    }
+}
+
+.subPages{ 
+    min-height: 100vh !important; 
+    position: relative !important;
+}
